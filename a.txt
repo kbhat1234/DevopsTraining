@@ -1,0 +1,9 @@
+git commands
+------------------
+git config --global user.name "your name"
+git config --global user.email "your email address"
+
+git remote add origin git@github.com:kbhat1234/devops.git
+
+git pull origin master
+git push origin master
