@@ -1,3 +1,73 @@
 Welcome to Git project
 
 creating dev ops project
+
+VCS - version control system
+DVCS - Distributed Version Control system
+
+3 Tree Arch
+
+Head Concept
+
+Jenkins Thoery
+
+----------------
+
+
+git config --global user.name "Your Name"
+git config --global user.email you@example.co
+
+
+git add .
+git commit -m 
+git commit -a -m
+git branch
+git checkout
+git merge branch -- i will take it later with one example
+solve merge conflicts
+-----------------------------
+git pull repo master
+git push 
+git remote show origin
+git branch -av
+git pull
+git clone 
+
+git tags
+-----------------------------
+git log --pretty=oneline
+$git show HEAD
+$ git reset --HARD <sha-code>
+$ git branch
+$git branch branchname
+
+------------------------
+
+
+
+git stash
+git stash apply
+----------
+
+git commit -a -m "without staging area"
+
+--------------------------------------------
+git tag 1.1
+git tag 1.2
+git tag
+git show tag
+git tag
+git push origin --tags
+git clone --branch <tag_name> <repo_url>
+git clone --branch 2.1 <url >
+
+------------------------
+Merge conflict
+git squash
+https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/
+-------------------------------------------------------------
+share the changes with peers
+install particular git version
+-------------
+
+pull the particular fiel only 
