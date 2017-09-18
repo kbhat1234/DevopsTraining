@@ -1,1 +1,23 @@
 welcome to merge concept on git
+touch sample2.txt #create file in unix system on feature branch called "test_branch"
+
+git add sample2.txt
+git status
+git commit -m "Add sample2.txt"
+
+#checkout to master branch
+git checkout master
+
+ls -al
+#sample2.txt is not present hence we need to merge on branch level between "master" and "test_branch"
+
+git merge test_branch
+ls -l
+
+#push the code to remote repo from local repos to branches "master" and "test_branch"
+
+#on master branch perform 
+git push origin test_branch
+
+#on test_branch perform
+git push origin master
